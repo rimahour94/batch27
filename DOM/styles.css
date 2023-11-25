@@ -1,0 +1,64 @@
+.header {
+    background-color: rgb(127, 159, 160);
+}
+
+.menu-ul {
+    display: flex;
+    justify-content: end;
+    list-style: none;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.menu-ul li {
+    margin: 16px;
+}
+
+/* #home {
+    color: red;
+} */
+
+.form-container {
+    padding: 30px;
+    width: 50%;
+    margin: auto;
+    background-color: rgb(142, 157, 170);
+    text-align: center;
+}
+
+.nameContainer {
+    background: url("./images/pexels-designecologist-1779487.jpg");
+    background-color: #cccccc;
+    color: white;
+    /* Used if the image is unavailable */
+    height: 500px;
+    /* You must set a specified height */
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    /* Resize the background image to cover the entire container */
+    font-size: 20px;
+    /* padding: 100px; */
+    text-align: center;
+    font-weight: 700;
+    color: brown;
+    position: relative;
+
+
+}
+
+.nameContainer p {
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    background-color: white;
+    padding: 50px;
+    opacity: 0.6;
+    width: 200px;
+
+}
