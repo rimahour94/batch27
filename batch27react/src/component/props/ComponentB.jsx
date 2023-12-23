@@ -1,7 +1,6 @@
 function ComponentB(props) {
   // props will be in object format ex {key:"value"}
   // let props={ data:"Ritesh"}
-  console.log(props.data, props.arr);
   return (
     <>
       <h2>My name is {props.data} </h2>

@@ -1,5 +1,7 @@
 import "./styles/style.css";
 import ComponentA from "./component/props/ComponentA";
+import HooksUseState from "./component/hooks/hooksuseState/ComponentA";
+import FormComponent from "./component/hooks/hooksuseState/FormComponent";
 function App() {
   let insName = "Trisect";
   return (
@@ -12,7 +14,9 @@ function App() {
         excepturi itaque ea iusto aliquid voluptatum inventore accusamus fugiat
         hic sit quisquam.
       </p>
-      <ComponentA />
+      {/* <ComponentA /> */}
+      {/* <HooksUseState /> */}
+      <FormComponent />
     </>
   );
 }
